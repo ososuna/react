@@ -1,10 +1,17 @@
 
-test('should be true', () => {
+describe('Tests in demo.test.js file', () => {
     
-    const isActive = true;
-
-    if ( isActive ) {
-        throw new Error('Is not active');
-    }
+    test('strings should be the same', () => {
+        
+        // 1. Arrange
+        const message = 'Hello World';
+    
+        // 2. Act
+        const message2 = `Hello World`;
+        
+        // 3. Assert
+        expect( message ).toBe( message2 );
+    
+    });
 
 });

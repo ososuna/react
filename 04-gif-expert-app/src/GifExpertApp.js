@@ -1,23 +1,23 @@
 
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { AddCategory } from './components/AddCategory';
 
 const GifExpertApp = () => {
 
-    // const categories = ['Zenitsu', 'Sana Twice', 'Kurapika'];
-
     const [categories, setCategories] = useState(['Zenitsu', 'Sana Twice', 'Kurapika']);
 
-    const handleAdd = () => {
-        setCategories( ['Hunter x Hunter', ...categories] );
-    }
+    // const handleAdd = () => {
+    //     setCategories( ['Hunter x Hunter', ...categories] );
+    // }
 
     return (
         <>
             <h2>GifExpertApp</h2>
-            <hr/>
 
-            <button onClick = { handleAdd }>Agregar</button>
+            <AddCategory setCategories={ setCategories } />
+
+            <hr/>
 
             <ol>
                 {

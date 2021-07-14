@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid component tests should match with snapshot 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Hunter x Hunter
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`GifGrid component tests should show items when the images are loaded - useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Hunter x Hunter
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="123"
+      key="123"
+      title="A title"
+      url="https://localhost/something.jpg"
+    />
+  </div>
+</Fragment>
+`;

@@ -22,7 +22,7 @@ export const SimpleForm = () => {
         // console.log('formState changed');
     }, [ formState ]);
     
-    // Cada vez que sucede un cambio en formState se ejecuta
+    // Cada vez que sucede un cambio en email se ejecuta
     useEffect( () => {
         // console.log('email changed');
     }, [ email ]);

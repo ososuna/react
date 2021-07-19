@@ -1,8 +1,9 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MemoHook } from './components/06-memos/MemoHook';
+import { CallBack } from './components/06-memos/CallBack';
 
+// import { MemoHook } from './components/06-memos/MemoHook';
 // import { Memorize } from './components/06-memos/Memorize';
 // import { Layout } from './components/05-useLayoutEffect/Layout';
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef';
@@ -15,6 +16,6 @@ import { MemoHook } from './components/06-memos/MemoHook';
 // import { CounterCustomHook } from './components/01-useState/CounterCustomHook';
 
 ReactDOM.render(
-    <MemoHook />,
+    <CallBack />,
   document.getElementById('root')
 );

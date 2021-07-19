@@ -1,8 +1,9 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CallBack } from './components/06-memos/CallBack';
+import { Padre } from './components/07-tarea-memo/Padre';
 
+// import { CallBack } from './components/06-memos/CallBack';
 // import { MemoHook } from './components/06-memos/MemoHook';
 // import { Memorize } from './components/06-memos/Memorize';
 // import { Layout } from './components/05-useLayoutEffect/Layout';
@@ -16,6 +17,6 @@ import { CallBack } from './components/06-memos/CallBack';
 // import { CounterCustomHook } from './components/01-useState/CounterCustomHook';
 
 ReactDOM.render(
-    <CallBack />,
+    <Padre />,
   document.getElementById('root')
 );
